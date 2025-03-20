@@ -41,7 +41,7 @@
             this.dgvMahasiswa = new System.Windows.Forms.DataGridView();
             this.btnTambah = new System.Windows.Forms.Button();
             this.btnHapus = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnUbah = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMahasiswa)).BeginInit();
             this.SuspendLayout();
@@ -157,14 +157,14 @@
             this.btnHapus.UseVisualStyleBackColor = true;
             this.btnHapus.Click += new System.EventHandler(this.BtnHapus);
             // 
-            // button3
+            // btnUbah
             // 
-            this.button3.Location = new System.Drawing.Point(519, 141);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Ubah";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnUbah.Location = new System.Drawing.Point(519, 141);
+            this.btnUbah.Name = "btnUbah";
+            this.btnUbah.Size = new System.Drawing.Size(75, 23);
+            this.btnUbah.TabIndex = 13;
+            this.btnUbah.Text = "Ubah";
+            this.btnUbah.UseVisualStyleBackColor = true;
             // 
             // btnRefresh
             // 
@@ -182,7 +182,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(765, 450);
             this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnUbah);
             this.Controls.Add(this.btnHapus);
             this.Controls.Add(this.btnTambah);
             this.Controls.Add(this.dgvMahasiswa);
@@ -220,7 +220,7 @@
         private System.Windows.Forms.DataGridView dgvMahasiswa;
         private System.Windows.Forms.Button btnTambah;
         private System.Windows.Forms.Button btnHapus;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnUbah;
         private System.Windows.Forms.Button btnRefresh;
     }
 }
